@@ -1,0 +1,407 @@
+.JOB FORM{
+/* Make the whole form smaller */
+.job-form {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Make the form heading smaller */
+.job-form h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Reduce spacing between sections */
+.job-form div {
+    margin-bottom: 10px;
+}
+
+/* Make labels compact */
+.job-form label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+/* Make input fields smaller */
+.job-form input,
+.job-form select,
+.job-form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Keep radio buttons and checkboxes normal-sized */
+.job-form input[type="radio"],
+.job-form input[type="checkbox"] {
+    width: auto;
+}
+
+/* Make the submit button compact */
+.job-form button,
+.job-form input[type="submit"] {
+    width: auto;
+    padding: 9px 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+}
+
+
+.suc{
+background-color: #2878c8;
+color: white;
+
+text-align: center;
+padding:3px ;
+margin: 0px;
+}
+
+.ENNY {
+    background-color: #f8fafc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #1e293b;
+}
+
+.ENNY label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+.ENNY input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #94a3b8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.ENNY input:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.3);
+}
+
+
+/* Gender section */
+.form.header {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f0f6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Gender heading label */
+.form.header > label:first-child {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    color: #1d4ed8;
+    margin-bottom: 12px;
+}
+
+/* Radio buttons */
+.form.header input[type="radio"] {
+    accent-color: #2563eb;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin: 8px 5px 8px 0;
+}
+
+/* Male, Female and Other labels */
+.form.header input[type="radio"] + label {
+    display: inline-block;
+    font-size: 14px;
+    color: #334155;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.form.header input[type="radio"] + label:hover {
+    color: #1d4ed8;
+}
+
+/* Mobile styling */
+@media screen and (max-width: 600px) {
+    .form.header {
+        padding: 12px;
+    }
+
+    .form.header input[type="radio"] + label {
+        margin-right: 10px;
+        font-size: 13px;
+    }
+}
+
+
+/* Home Address Section */
+.form.header.h1 {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f0f6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* Home Address Label */
+.form.header.h1 label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1d4ed8;
+    margin-bottom: 10px;
+}
+
+/* Home Address Input */
+.form.header.h1 input[type="text"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-top: 5px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    background-color: #ffffff;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+/* Focus Effect */
+.form.header.h1 input[type="text"]:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 6px rgba(37, 99, 235, 0.2);
+}
+
+/* Placeholder Styling */
+.form.header.h1 input::placeholder {
+    color: #94a3b8;
+}
+
+/* Mobile Responsive Styling */
+@media screen and (max-width: 600px) {
+    .form.header.h1 {
+        padding: 12px;
+    }
+
+    .form.header.h1 input[type="text"] {
+        padding: 10px;
+    }
+}
+
+.tes {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+/* Labels */
+.tes label {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    color: #1d4ed8;
+    margin: 12px 0 8px;
+}
+
+/* Input fields */
+.tes input[type="text"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    background-color: #ffffff;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+/* Input focus effect */
+.tes input[type="text"]:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 6px rgba(37, 99, 235, 0.25);
+}
+
+/* Placeholder text */
+.tes input::placeholder {
+    color: #94a3b8;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+    .tes {
+        padding: 12px;
+    }
+
+    .tes input[type="text"] {
+        padding: 10px;
+    }
+}
+
+/* Skills section */
+.ski {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f0f6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+/* Skills heading */
+.ski label[for="ski"] {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1d4ed8;
+    margin-bottom: 15px;
+}
+/* Skill labels */
+.ski label:not([for="ski"]) {
+    display: inline-block;
+    font-size: 14px;
+    color: #334155;
+    margin: 8px 5px;
+    cursor: pointer;
+}
+/* Skill labels */
+.ski label:not([for="ski"]) {
+    display: inline-block;
+    font-size: 14px;
+    color: #334155;
+    margin: 8px 5px;
+    cursor: pointer;
+}
+/* Hover effect */
+.ski label:not([for="ski"]):hover {
+    color: #1d4ed8;
+}
+/* Responsive design */
+@media screen and (max-width: 600px) {
+    .ski {
+        padding: 12px;
+    }
+.ski label:not([for="ski"]) {
+        font-size: 13px;
+        margin: 6px 3px;
+    }
+}
+
+
+.tin {
+    margin-bottom: 22px;
+    padding: 15px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+}
+.tin label {
+display: block;
+    color: #1d4ed8;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+    
+/* File upload input */
+.tin input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Choose file button */
+.tin input[type="file"]::file-selector-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* Hover effect */
+.tin input[type="file"]::file-selector-button:hover {
+    background-color: #1e40af;
+}
+
+.wan textarea{
+width: 100%;
+padding: 12px;
+border: 1px solid #cbd5e1;
+border: 1px solid #cbd5e1;
+font-family: Arial, sans-serif;
+font-size: 14px;
+resize: vertical;
+}
+.wan textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+
+.SUB {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+}
+
+.SUB:hover {
+    background-color: #1e40af;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
